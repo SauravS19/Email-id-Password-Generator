@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+html{
+    font-size: 62.5%;
+}
+#top{
+    height: 100vh;
+    width: 100vw;
+ display: flex;
+ overflow-y: hidden;
+ justify-content: center;
+ background:linear-gradient(231deg, rgb(32, 6, 63) 0%, rgb(93, 53, 138) 50%,rgba(88,7,125,1) 100% );
+} 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+    align-items: center;
+   margin-top: 4rem;
+    width: 50rem;
+ 
+    height: 100vh;
+   
+  
+}
+.email{ 
+    color: rgb(255, 255, 255);
+    background-color:rgba(18, 4, 36, 0.968);
+    height: 3.5rem;
+    width:100%;
+    font-size: 2rem;
+    border-radius: 1rem 0.2rem;
+    border: none;
+
+}
+#main{
+    margin: 1.2rem;
+    color: white;
+    font-size: 2rem;
+    height: 20rem;
+    padding-bottom :.0rem;
+   width: 40rem;
+    
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color:rgba(53, 18, 102, 0.968);
+    border: 0.2rem solid yellow;
+
+}
+#ffname,#llname{
+    color: white;
+    background-color:rgba(17, 4, 35, 0.968);
+  font-size: 1.5rem;
+    height: 3rem;
+    display: flex;
+   margin-top: 2rem;
+   border-radius: 1rem 0.2rem;
+   border-bottom:0.4rem solid rgba(151, 8, 176, 0.968);
+   text-decoration: none;
+}
+#num{
+    color: rgb(255, 255, 0);
+}
+.user{
+    display: flex;
+    gap: 1.5rem;
+  
+  
+ 
+}
+#re1,#re2{
+  color: rgba(194, 194, 30, 0.952);
+   margin-top: 0.0rem;
+   margin-bottom: .0rem;
+    border: 0.2rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+   margin-left: 9rem;
+    text-align: center;
+    font-size: 1.4rem;
+  
+    
+}
+#butt{
+  height: 3rem;
+  width: 7rem;
+  margin-left:15rem ;
+  margin-top: 1rem;
+ padding-bottom: 0%;
+ border-radius: 1rem;
+ background-color:rgba(151, 8, 176, 0.968);;
+ color:yellow; 
+ font-size: 1.5rem;
+ border-bottom:0.25 solid yellow;
+ 
+}
+
+
+.display-container{
+
+    padding-top: 2rem;
+    width: 38rem;
+    height: 24rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+
+    
+}
+.display{
+    border-bottom:0.4rem solid rgba(151, 8, 176, 0.968);
+
+    display: flex;
+    padding: 0.5rem;
+    width: 45rem;
+    border-radius: 1rem 0.2rem;
+    background-color:rgba(17, 4, 35, 0.968);
+}
+.display2{
+    
+        border: 0.2rem solid yellow;
+    border: 0.2rem solid ;
+    display: flex;
+    padding: 0.5rem;
+    background-color:rgba(17, 4, 35, 0.968);
+    width: 45rem;
+    border-radius: 1rem 0.2rem;
+    border-bottom:0.4rem solid rgba(151, 8, 176, 0.968);
+
+}
+#pass{
+    color: white;
+    background-color:rgba(17, 4, 35, 0.968);
+    border: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.8rem;
+    
+}
+
+.length-container{
+    display: flex;
+    gap: 18rem;
+    
+    
+}
+.cb{
+   border: none;
+    background-color:rgba(17, 4, 35, 0.968);
+    color: white;
+}
+.buttont{
+    background-color:rgba(151, 8, 176, 0.968);;
+    border-radius: 1rem;
+    position: absolute;
+    top: 3rem;
+    width: 6rem;
+}
+
+
+
+.cb1{
+    margin-left: 1rem;
+ border: none;
+    background-color:rgba(17, 4, 35, 0.968);
+    background-color:transparent;
+   color: white;
+}
+
+.cbut{
+    background-color:rgba(151, 8, 176, 0.968);;
+    border-radius: 1rem;
+    position: absolute;
+    top: 34.5rem;
+    width: 6rem;
+   
+}
+.slider{
+    width: 35rem;
+    background-color: yellow;
+
+    
+}
+#outside{   
+     border: 0.2rem solid yellow;
+    margin-top: 1.2rem;
+background-color:rgba(53, 18, 102, 0.968);
+color: white;
+font-size: 2rem;
+    border-radius: 2rem;
+    width: 40rem;
+
+
+}
+.generateButton{
+    border-radius: 1rem;
+    margin-top: 1rem;
+    height: 4rem;
+    width: 20rem;
+   
+    background-color:rgba(151, 8, 176, 0.968);;
+ color:yellow; 
+ font-size: 2.5rem;
+ border-bottom:0.25rem solid yellow;
+ letter-spacing: 0.2rem;
+}
+.strength-container{
+    padding-top: 1rem;
+    display: flex;
+   gap: 26rem;
+    align-items: center;
+}
+#point{
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+   
+}
+#checkbox{
+    color: rgba(194, 194, 30, 0.952);
+   margin-top: 0.0rem;
+   margin-bottom: 0.0rem;
+    border: 0.2rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+@media(max-width:700px){
+    html{
+    font-size: 50%;
+}  }
+@media(max-height:700px){
+    html{
+    font-size: 50%;
+}  
+}
+@media(max-width:400px){
+    html{
+    font-size: 40%;
+}  
+}
